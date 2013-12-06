@@ -1,6 +1,13 @@
 {
-  "name": "Ember.js",
+  "name": "Boilerplate",
   "version": "1.0.0",
+  "author": "Metzger <jiri.krajnak@gmail.com>",
+  "description": "A simple website boilerplate.",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metzger84/boilerplate.git"
+  }
 
   "devDependencies": {
     "grunt": "~0.4.2",
@@ -9,5 +16,7 @@
     "grunt-contrib-less": "*",
     "grunt-contrib-watch": "*",
     "grunt-contrib-requirejs": "*"
-  }
+  },
+
+  "licence": "MIT"
 }
