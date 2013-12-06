@@ -1,4 +1,4 @@
-boilerplate
-===========
+Project boilerplate
+===================
 
-boilerplate with the following in mind: gruntjs, requirejs, less
+web site boilerplate utilizing the following tools: gruntjs, requirejs, less
