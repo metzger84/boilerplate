@@ -1,4 +1,7 @@
-"use strict";
+/**
+  * @desc basic require.js configuration. setting base path for modules,
+  * downloading jquery from cdn and testing out functionality.
+*/
 
 requirejs.config({
 	baseUrl: 'javascript/modules',
@@ -8,6 +11,8 @@ requirejs.config({
     }
 });
 
-requirejs([ 'test', 'jquery' ], function( Test, $ ) {
-	new Test().foo();
+requirejs([ 'dummy', 'jquery' ], function( Dummy, $ ) {
+	"use strict";
+
+	console.log( new Dummy(), $ );
 });
