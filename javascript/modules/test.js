@@ -1,3 +1,5 @@
+"use strict";
+
 define( [], function(){
 	var F = function(){
 		this.v = 'foobar';
